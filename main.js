@@ -12,7 +12,6 @@ client.on("message", function (message) {
     let msg = message.content.toLowerCase()
     if ((msg.endsWith("quoi") === true) || (msg.endsWith("quoi ?") === true) || (msg.endsWith("quoi?") === true)) {
         message.channel.send("Feur")
-        message.channel.
     }
 })
 
