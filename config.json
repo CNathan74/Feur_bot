@@ -1,0 +1,17 @@
+{
+  "channel": [
+    {
+      "id": 0,
+      "feur_img": false
+    },
+    {
+      "id": 1,
+      "feur_img": false
+    }
+  ],
+  "feur_img": true,
+  "undefined": {
+    "id": "814616446603886635",
+    "feur_img": true
+  }
+}
