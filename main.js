@@ -117,8 +117,12 @@ client.on("message", function (message) {
         message.channel.send("https://tenor.com/view/silly-stare-hungry-downs-syndrome-trisomy21-gif-5736341")
     }
 
-    if((msg.indexOf("nathan") !== -1)){
+    if((msg.indexOf("titouan") !== -1) && (message.author.id !== "814614216618803201")){
         message.channel.send("https://tenor.com/view/k%c3%a9mar-kemar-titouan-gif-13860479")
+    }
+
+    if((msg.indexOf("romain") !== -1) && (message.author.id !== "814614216618803201")){
+        message.channel.send("https://tenor.com/view/allez-lom-olympique-de-marseille-om-gif-11829168")
     }
 
 
