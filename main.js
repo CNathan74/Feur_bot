@@ -117,6 +117,10 @@ client.on("message", function (message) {
         message.channel.send("https://tenor.com/view/silly-stare-hungry-downs-syndrome-trisomy21-gif-5736341")
     }
 
+    if((msg.indexOf("nathan") !== -1)){
+        message.channel.send("https://tenor.com/view/k%c3%a9mar-kemar-titouan-gif-13860479")
+    }
+
 
 })
 
