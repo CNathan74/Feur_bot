@@ -112,6 +112,12 @@ client.on("message", function (message) {
     if((msg.indexOf("grave") !== -1) && (msg.indexOf("-grave-") === -1)) {
         message.channel.send("https://tenor.com/view/bah-non-grave-hyper-pas-gif-20249630")
     }
+
+    if((msg.indexOf("nathan") !== -1)){
+        message.channel.send("https://tenor.com/view/silly-stare-hungry-downs-syndrome-trisomy21-gif-5736341")
+    }
+
+
 })
 
 client.login(process.env.TOKEN);
